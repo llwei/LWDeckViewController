@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Panel Table View Controller-->
@@ -85,7 +84,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z4z-VI-Ame" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="340" y="1061"/>
+            <point key="canvasLocation" x="19" y="1060"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -98,17 +97,7 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YF1-G8-zmX">
-                                <rect key="frame" x="259" y="530" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
-                            </button>
-                        </subviews>
                         <color key="backgroundColor" red="1" green="0.80124029175557587" blue="0.77072055159923403" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="YF1-G8-zmX" secondAttribute="trailing" id="GYY-fB-aSU"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="YF1-G8-zmX" secondAttribute="bottom" constant="8" id="NkP-YY-Cbo"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Y8g-qj-QYg">
                         <barButtonItem key="leftBarButtonItem" title="Item" id="V1y-4Q-eQF">

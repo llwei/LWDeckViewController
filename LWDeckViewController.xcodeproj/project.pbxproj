@@ -269,6 +269,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.csym.LWDeckViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "cef0d999-5447-4dff-aebb-16f7cdaa27e3";
 			};
 			name = Debug;
 		};
@@ -280,6 +281,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.csym.LWDeckViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "cef0d999-5447-4dff-aebb-16f7cdaa27e3";
 			};
 			name = Release;
 		};
