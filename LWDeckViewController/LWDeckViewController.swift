@@ -170,6 +170,8 @@ class LWDeckViewController: UIViewController {
                     mainVC.view.addConstraints(maskHConstraints())
                     mainVC.view.addConstraints(maskVConstraints())
                 }
+            } else {
+                setTapGestureEnabled(false)
             }
             
         case .Changed:
@@ -264,6 +266,7 @@ class LWDeckViewController: UIViewController {
                                         if self.type == .Cover {
                                             self.coverPanGesture?.enabled = true
                                         }
+                                        self.setTapGestureEnabled(true)
             })
             
         } else {
