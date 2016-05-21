@@ -17,7 +17,7 @@
             let mainVC = storyboard.instantiateViewControllerWithIdentifier("NavigationController") as! UINavigationController
             let leftVC = storyboard.instantiateViewControllerWithIdentifier("PanelTableViewController") as! PanelTableViewController
 
-            deckVC = LWDeckViewController(drawerType: .Default,
+            deckVC = LWDeckViewController(drawerType: .Default,     // .Scale 或 .Cover
                                           mainViewController: mainVC,
                                           leftViewController: leftVC)
             window?.rootViewController = deckVC
