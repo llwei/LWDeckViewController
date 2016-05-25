@@ -3,7 +3,7 @@
 2、左向缩放侧滑（LWDeckDrawerType.Scale）
 3、覆盖式左抽屉侧滑（LWDeckDrawerType.Cover）
 
-Deployment Target 7.0
+Deployment Target iOS7.0
 
 一、初始化方法，通过改变 drawerType 来初始化你想要的样式
 
