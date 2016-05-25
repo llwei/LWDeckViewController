@@ -1,4 +1,5 @@
 # LWDeckViewController
+Deployment Target 7.0
 1、左向侧滑（LWDeckDrawerType.Default）
 2、左向缩放侧滑（LWDeckDrawerType.Scale）
 3、覆盖式左抽屉侧滑（LWDeckDrawerType.Cover）
