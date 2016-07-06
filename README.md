@@ -45,6 +45,11 @@ Deployment Target iOS 7.0
     // 闭合
     deckVC.collapsePanel()
     
+LWDeckDrawerType.Default
 ![(logo)](http://code4app.com/data/attachment/forum/201607/06/195417idqdrgq68bb9xj6r.png)
+
+LWDeckDrawerType.Scale
 ![(logo)](http://code4app.com/data/attachment/forum/201607/06/195422tmuwmqw0ziniq4qw.png)
+
+LWDeckDrawerType.Cover
 ![(logo)](http://code4app.com/data/attachment/forum/201607/06/195428rcwd0vmd4rvbfrgt.png)
