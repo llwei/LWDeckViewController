@@ -14,13 +14,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     var deckVC: LWDeckViewController?
 
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let mainVC = storyboard.instantiateViewControllerWithIdentifier("NavigationController") as! UINavigationController
-        let leftVC = storyboard.instantiateViewControllerWithIdentifier("PanelTableViewController") as! PanelTableViewController
+        let mainVC = storyboard.instantiateViewController(withIdentifier: "NavigationController") as! UINavigationController
+        let leftVC = storyboard.instantiateViewController(withIdentifier: "PanelTableViewController") as! PanelTableViewController
         
-        deckVC = LWDeckViewController(drawerType: .Default,
+        deckVC = LWDeckViewController(drawerType: .default,
                                       mainViewController: mainVC,
                                       leftViewController: leftVC)
         window?.rootViewController = deckVC

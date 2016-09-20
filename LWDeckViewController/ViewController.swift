@@ -15,9 +15,9 @@ class ViewController: UIViewController {
 
     }
 
-    @IBAction func leftBarItemWasTaped(sender: UIBarButtonItem) {
+    @IBAction func leftBarItemWasTaped(_ sender: UIBarButtonItem) {
         
-        if let deckVC = (UIApplication.sharedApplication().delegate as! AppDelegate).deckVC {
+        if let deckVC = (UIApplication.shared.delegate as! AppDelegate).deckVC {
             deckVC.isCollapsed() ? deckVC.expandLeftPanel() : deckVC.collapsePanel()
         }
     }

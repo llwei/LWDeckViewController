@@ -110,6 +110,7 @@
 				TargetAttributes = {
 					00271C071CEDCF5A00DEE9D5 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -271,6 +272,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.csym.LWDeckViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "cef0d999-5447-4dff-aebb-16f7cdaa27e3";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -284,6 +286,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.csym.LWDeckViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "cef0d999-5447-4dff-aebb-16f7cdaa27e3";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
